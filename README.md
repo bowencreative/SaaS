@@ -55,6 +55,22 @@ Clone this project and use it to create your own SaaS. You can check the live de
   </tr>
   <tr height="187px">
     <td align="center" width="33%">
+      <a href="https://launch.arcjet.com/Q6eLbRE">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/arcjet-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/arcjet-light.svg?raw=true">
+          <img alt="Arcjet" src="public/assets/images/arcjet-light.svg?raw=true">
+        </picture>
+      </a>
+    </td>
+    <td align="center" style=width="33%">
+      <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
+        <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
+    <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
       </a>
@@ -78,6 +94,14 @@ Clone this project and use it to create your own SaaS. You can check the live de
 | --- | --- |
 | [![Next.js Boilerplate SaaS Sign Up](public/assets/images/nextjs-boilerplate-saas-sign-up.png)](https://react-saas.com/sign-up) | [![Next.js Boilerplate SaaS Sign In](public/assets/images/nextjs-boilerplate-saas-sign-in.png)](https://react-saas.com/sign-in) |
 
+| Landing Page with Dark Mode (Pro Version) | User Dashboard with Dark Mode (Pro Version) |
+| --- | --- |
+| [![Next.js Boilerplate SaaS Landing Page Dark Mode](public/assets/images/nextjs-boilerplate-saas-landing-page-dark-mode.png)](https://pro-demo.nextjs-boilerplate.com) | [![Next.js Boilerplate SaaS User Dashboard Dark Mode](public/assets/images/nextjs-boilerplate-saas-user-dashboard-sidebar-dark-mode.png)](https://pro-demo.nextjs-boilerplate.com/dashboard) |
+
+| User Dashboard with Sidebar (Pro Version) |
+| --- |
+| [![Next.js Boilerplate SaaS User Dashboard Sidebar](public/assets/images/nextjs-boilerplate-saas-user-dashboard-sidebar.png)](https://pro-demo.nextjs-boilerplate.com) |
+
 ### Features
 
 Developer experience first, extremely flexible code structure and only keep what you need:
@@ -85,7 +109,7 @@ Developer experience first, extremely flexible code structure and only keep what
 - ⚡ [Next.js](https://nextjs.org) with App Router support
 - 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
 - 💎 Integrate with [Tailwind CSS](https://tailwindcss.com) and Shadcn UI
-- ✅ Strict Mode for TypeScript and [React 18](https://react.dev)
+- ✅ Strict Mode for TypeScript and [React](https://react.dev)
 - 🔒 Authentication with [Clerk](https://go.clerk.com/zGlzydF): Sign up, Sign in, Sign out, Forgot password, Reset password, and more.
 - 👤 Passwordless Authentication with Magic Links, Multi-Factor Auth (MFA), Social Auth (Google, Facebook, Twitter, GitHub, Apple, and more), Passwordless login with Passkeys, User Impersonation
 - 👥 Multi-tenancy & team support: create, switch, update organization and invite team members
@@ -229,6 +253,8 @@ You can easily configure Next.js SaaS Boilerplate by searching the entire projec
 - `.env`: default environment variables
 
 You have full access to the source code for further customization. The provided code is just an example to help you start your project. The sky's the limit 🚀.
+
+In the source code, you will also find `PRO` comments that indicate the code that is only available in the PRO version. You can easily remove or replace this code with your own implementation.
 
 ### Change database schema
 
@@ -455,6 +481,22 @@ See [LICENSE](LICENSE) for more information.
   </tr>
   <tr height="187px">
     <td align="center" width="33%">
+      <a href="https://launch.arcjet.com/Q6eLbRE">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="public/assets/images/arcjet-dark.svg?raw=true">
+          <source media="(prefers-color-scheme: light)" srcset="public/assets/images/arcjet-light.svg?raw=true">
+          <img alt="Arcjet" src="public/assets/images/arcjet-light.svg?raw=true">
+        </picture>
+      </a>
+    </td>
+    <td align="center" style=width="33%">
+      <a href="https://nextjs-boilerplate.com/pro-saas-starter-kit">
+        <img src="public/assets/images/nextjs-boilerplate-saas.png?raw=true" alt="Next.js SaaS Boilerplate with React" />
+      </a>
+    </td>
+  </tr>
+  <tr height="187px">
+    <td align="center" width="33%">
       <a href="mailto:contact@creativedesignsguru.com">
         Add your logo here
       </a>
@@ -465,5 +507,7 @@ See [LICENSE](LICENSE) for more information.
 ---
 
 Made with ♥ by [CreativeDesignsGuru](https://creativedesignsguru.com) [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+
+Looking for a custom boilerplate to kick off your project? I'd be glad to discuss how I can help you build one. Feel free to reach out anytime at contact@creativedesignsguru.com!
 
 [![Sponsor Next JS Boilerplate](https://cdn.buymeacoffee.com/buttons/default-red.png)](https://github.com/sponsors/ixartz)

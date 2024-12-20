@@ -13,6 +13,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
+import { Separator } from '@/components/ui/separator';
 import { Logo } from '@/templates/Logo';
 import { getI18nPath } from '@/utils/Helpers';
 
@@ -32,7 +33,7 @@ export const DashboardHeader = (props: {
         </Link>
 
         <svg
-          className="ml-1 size-8 stroke-muted-foreground max-sm:hidden"
+          className="size-8 stroke-muted-foreground max-sm:hidden"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           fill="none"
@@ -54,7 +55,7 @@ export const DashboardHeader = (props: {
           skipInvitationScreen
           appearance={{
             elements: {
-              organizationSwitcherTrigger: 'max-w-52',
+              organizationSwitcherTrigger: 'max-w-28 sm:max-w-52',
             },
           }}
         />
@@ -71,8 +72,8 @@ export const DashboardHeader = (props: {
       </div>
 
       <div>
-        <ul className="flex items-center gap-x-1 [&_li:not(:last-child):hover]:opacity-100 [&_li:not(:last-child)]:opacity-60">
-          <li>
+        <ul className="flex items-center gap-x-1.5 [&_li[data-fade]:hover]:opacity-100 [&_li[data-fade]]:opacity-60">
+          <li data-fade>
             <div className="lg:hidden">
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -89,8 +90,14 @@ export const DashboardHeader = (props: {
             </div>
           </li>
 
-          <li>
+          {/* PRO: Dark mode toggle button */}
+
+          <li data-fade>
             <LocaleSwitcher />
+          </li>
+
+          <li>
+            <Separator orientation="vertical" className="h-4" />
           </li>
 
           <li>
